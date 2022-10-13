@@ -28,7 +28,7 @@ to -o to jest tak zwana flaga. Mozna ich uzywac by powiedziec programowi aby sie
 Sa jeszcze flagi jako slowa ktore sie zaczynaja z --. Na przyklad --version.
 
 # 2. Niepotrzebne jebanie sie z kompilatorem
-procesow kompilacji nie chce mi sie pisac xD (oraz to jest kompletnie niepotrzebne, w tych czasach kompilery wszystko robia to same). Adrian w swoim poradniku to opisal.
+procesow kompilacji nie chce mi sie pisac xD (oraz to jest kompletnie niepotrzebne, w tych czasach kompilery wszystko robia to same). Macie to w liscie nauczyciela.
 [link do jego poradnika](https://github.com/andrzejwp/PodstawyProgramowania/tree/master/Lab2)
 # 3. Includowanie innych plikow w nasz program
 
