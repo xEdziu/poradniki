@@ -45,7 +45,8 @@ int add(int a, int b) {
 dobra co tu sie stalo:
  - funckja jest zdefiniowana jako int, czyli ma zwracac intiger
  - to w nawiasie to ja nasze argumenty funkji. Sa to dane ktore przekarzemy funkcji podczas jej wywolywania. Jak widac obie te dane maja byc int'ami
- - return a+b po prostu zwraca well, a+b
+ - ``return a+b`` po prostu zwraca well, a+b. ``return`` ogolnie konczy wykonywanie funkcji.
+  Czyli jesli wywolamy ``return`` kod w tej funkcji po return po prostu nie bedzie wykonany.
 
 ok czas na main.cpp
 
