@@ -1,7 +1,7 @@
 Lekcja 1 - Poczatki
 ==================================================
 # 1. Start
-napiszmy najprostrszy program:
+### napiszmy najprostrszy program:
 
 ```
 int main() {
@@ -38,19 +38,19 @@ nasz program bedzie sie skladac z dwoch plikow:
 
 w func.h napiszemy nasza funkcje, ale uzyjemy jej z main.cpp.
 
-najpierw zacznijmy od func.h
+### najpierw zacznijmy od func.h
 ```
 int add(int a, int b) {
 	return a+b;
 }
 ```
-dobra co tu sie stalo:
+### dobra co tu sie stalo:
  - funckja jest zdefiniowana jako int, czyli ma zwracac intiger
  - to w nawiasie to ja nasze argumenty funkji. Sa to dane ktore przekarzemy funkcji podczas jej wywolywania. Jak widac obie te dane maja byc int'ami
  - ``return a+b`` po prostu zwraca well, a+b. ``return`` ogolnie konczy wykonywanie funkcji.
   Czyli jesli wywolamy ``return`` kod w tej funkcji po return po prostu nie bedzie wykonany.
 
-ok czas na main.cpp
+### ok czas na main.cpp
 
 ```
 #include <iostream>
@@ -64,7 +64,7 @@ int main() {
 }
 ```
 
-ok wiec:
+### ok wiec:
  - ``#include`` importuje nam inne pliki. wersja z <> bedzie szukac systemowych bibliotek, a wersja z "" bedzie szukac po folderach z miejsca, gdzie jest nasz plik
  czyli mozemy wrzucic nasz func.h w nowego folderu amogus i wtedy damy #include "amogus/func.h".
  - ``int main`` deklaracja naszej glownej funkcji. Jest ona i TYLKO ona wykonywana podczas dzialania programu. Jakikolwiek kod ktory nie ma jakiegos polaczenia do main bedzie ignorowany. Moze byc tylko jednak funkcja main per program.
@@ -76,7 +76,7 @@ ok wiec:
  - ``endl`` - end line, selfexplanatory, mozna tez dac ``"\n"`` - newline
  - ``return 0`` tu jak wczesniej wspomnialem potwierdzamy ze nasz program wykonal sie poprawnie
 
-czas to zkompilowac
+### czas to zkompilowac
  - nie bedzie sie to roznic od poprzedniego przykladu
- poprostu ``make main`` albo ``g++ main.cpp -o sus``.
- - mozna uruchomic program dajac ``./sus``
+ poprostu ``make main`` albo ``g++ main.cpp -o <nasza nazwa execa>``.
+ - mozna uruchomic program dajac ``./<nazwa execa>``
