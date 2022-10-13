@@ -1,6 +1,8 @@
 Lekcja 1 - Poczatki
 ==================================================
-1. napiszmy najprostrszy program:
+# 1. Start
+napiszmy najprostrszy program:
+
 ```
 int main() {
 	return 0;
@@ -25,10 +27,10 @@ to -o to jest tak zwana flaga. Mozna ich uzywac by powiedziec programowi aby sie
 -o (output) mowi mu aby nazwa pliku byla jaka chcemy. Inny przyklad to jest flaga -v ktora czesto oznacza version albo verbose.
 Sa jeszcze flagi jako slowa ktore sie zaczynaja z --. Na przyklad --version.
 
-2. Niepotrzebne jebanie sie z kompilatorem
+# 2. Niepotrzebne jebanie sie z kompilatorem
 procesow kompilacji nie chce mi sie pisac xD (oraz to jest kompletnie niepotrzebne, w tych czasach kompilery wszystko robia to same). Adrian w swoim poradniku to opisal.
-
-3. Includowanie innych plikow w nasz program
+[link do jego poradnika](https://github.com/andrzejwp/PodstawyProgramowania/tree/master/Lab2)
+# 3. Includowanie innych plikow w nasz program
 
 nasz program bedzie sie skladac z dwoch plikow:
 - main.cpp
