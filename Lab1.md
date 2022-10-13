@@ -1,4 +1,4 @@
-Lekcja 1 - niepotrzebne jebanie sie z kompilatorem
+Lekcja 1 - Poczatki
 ==================================================
 1. napiszmy najprostrszy program:
 ```
@@ -25,7 +25,8 @@ to -o to jest tak zwana flaga. Mozna ich uzywac by powiedziec programowi aby sie
 -o (output) mowi mu aby nazwa pliku byla jaka chcemy. Inny przyklad to jest flaga -v ktora czesto oznacza version albo verbose.
 Sa jeszcze flagi jako slowa ktore sie zaczynaja z --. Na przyklad --version.
 
-2. procesow kompilacji nie chce mi sie pisac xD (oraz to jest kompletnie niepotrzebne, w tych czasach kompilery wszystko robia to same). Adrian w swoim poradniku to opisal.
+2. Niepotrzebne jebanie sie z kompilatorem
+procesow kompilacji nie chce mi sie pisac xD (oraz to jest kompletnie niepotrzebne, w tych czasach kompilery wszystko robia to same). Adrian w swoim poradniku to opisal.
 
 3. Includowanie innych plikow w nasz program
 
@@ -63,6 +64,7 @@ int main() {
 ok wiec:
  - ``#include`` importuje nam inne pliki. wersja z <> bedzie szukac systemowych bibliotek, a wersja z "" bedzie szukac po folderach z miejsca, gdzie jest nasz plik
  czyli mozemy wrzucic nasz func.h w nowego folderu amogus i wtedy damy #include "amogus/func.h".
+ - ``int main`` deklaracja naszej glownej funkcji. Jest ona i TYLKO ona wykonywana podczas dzialania programu. Jakikolwiek kod ktory nie ma jakiegos polaczenia do main bedzie ignorowany. Moze byc tylko jednak funkcja main per program.
  - ``int a, int b`` - deklarujemy nowe zmienne o nazwie a i b o danych wartosciach.
  - ``std::`` - jest to pokazanie z jakiej biblioteki kompiler ma wziasc pewne rzeczy. Teraz bierzemy z biblioteki std (standard). Mozna tez uzyc ``using namespace <biblioteka>;`` we funkcji gdzie bedziemy duzo uzywac tej biblioteki
  UWAGA: uzywanie ``namespace`` poza funkcja zrobi go globalnym, jednak jest to mocno nierekomendowane i ogolnie sie tak nie robi. Moze powodowac problemy jak zaczniemy uzywac wiecej bibliotek
