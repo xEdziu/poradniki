@@ -167,7 +167,7 @@ a trzecim argumentem jest kod ktory bedzie wykonywany co kazda iteracja petli. P
 ```
 		zwiekszamy i o jeden
 		co kazda iteracja petli
-			 |
+                         |
     loopujemy dopuki i   |
     jest mniejsze lub    |
     rowne 10       |     |
