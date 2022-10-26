@@ -87,7 +87,7 @@ if dziala tylko na bool-inach. Czyli akceptuje tylko true albo false. Piszac ``5
 		wykonane
 	}
 	```
-- `` ``  doslownie brak operatora. Dziala tylko na boolean-ach. uzywa sie to w sposob tak jak wyzej, czyli
+- `` ``  doslownie brak operatora. Dziala to na boolean-ach albo na liczbach. Jesli jest liczba to 0 jest jako false a cokolwiek innego to true . uzywa sie to w sposob tak jak wyzej, czyli
 	```
 	bool sus = true;
 
