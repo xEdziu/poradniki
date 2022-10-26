@@ -1,5 +1,3 @@
-# poradniki
-
 LEKCJE PROGRAMOWANIA
 =================================
 chuj a nie poradnik, nie chce mi sie zmieniac nazwy repo. Sa tu 'lekcje' i guess z podstaw programowania.
