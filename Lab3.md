@@ -237,4 +237,28 @@ do {
 	ten kod bedzie wykonany przed sprawdzeniem warunku, wiec bedzie wykonany
 } while(a < 5) //tutaj dopiero sprawdzamy warunek, ktory w tym przypadku zatrzyma petle, ale nasz kod zostal wykonany raz pomimo niespelnionego warunku.
 ```
+## break i continue
+### break
+``break`` jest uzywany do przerwania petli w pewnym momencie. nie ma tu duzo wiecej do powiedzienia
+```
+for(int i = 0; i < 10; i++){
+	std::cout << i << std::endl;
+	if(i >= 5){
+		break;
+	}
+}
+```
+ta petla skonczy sie po 5 iteracjach, gdyz po tych i osiagnie 5 i wtedy zostanie wykonany break, ktory zatrzyma petle wczesniej.
 
+### continue
+``continue`` wraca na poczatek petli, pomijajac jakikolwiek kod ktory jest w petli ale po continue.
+```
+for(int i = 0; i < 10; i++){
+	std::cout << i << std::endl;
+	if(i >= 5){
+		continue;
+	}
+	std::cout << "sus" << std::endl;
+}
+```
+ta petla wyswietli nam wszystkie 10 liczb, jednak wyswietli tylko 5 'sus', poniewaz continue pominie kod po if-ie.
