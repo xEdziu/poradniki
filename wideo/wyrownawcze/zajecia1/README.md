@@ -1,5 +1,7 @@
 ![wyklad101-pp](https://user-images.githubusercontent.com/50357817/197997208-0e66da6a-b431-4a42-a4c9-e93e1ec42dba.png)
 
+# ZAPIS WIDEO
+https://youtu.be/n2ONJQR5REQ
 
 # 26.10.2022, godzina 23.00 na serwerze discorda ISA
 
