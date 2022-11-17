@@ -1,3 +1,4 @@
+![wyklad101-pp](https://user-images.githubusercontent.com/50357817/202410260-2cce46d1-008d-4154-8195-ed7b27146e6a.png)
 
 
 # ZAPIS WIDEO
