@@ -11,6 +11,7 @@ Drugi wykład na którym przejdziemy do bardziej skomplikowanych pojęć w C++, 
 # Plan wykładu:
 **1. Dobra kurwa, trochę mnie ominęło, co się dzieje?**
 - co to są tablice i po co nam one?
+- - jak działają tablice, a raczej zapisywanie ich w pamięci komputera?
 - - jak się do nich odwoływać?
 - - tablice jedno i wielowymiarowe
 - wektory? to nie było na fizyce czasem?
