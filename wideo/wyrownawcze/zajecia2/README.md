@@ -2,7 +2,7 @@
 
 
 # ZAPIS WIDEO
---
+https://youtu.be/hUYIHtTEYB4
 
 # 26.11.2022, godzina 19.00 na serwerze discorda ISA
 
